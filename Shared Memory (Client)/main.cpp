@@ -183,6 +183,9 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int nCmdShow) {
         15, 80, 460, 380, hwnd, NULL, hInstance, NULL);
 
     ShowWindow(hwnd, nCmdShow);
+    UpdateWindow(hwnd);           // Ensures immediate paint
+    SetForegroundWindow(hwnd);    // 👈 Critical for visibility
+    SetActiveWindow(hwnd);
 
     CreateThread(NULL, 0, ReceiverThread, NULL, 0, NULL);
 
