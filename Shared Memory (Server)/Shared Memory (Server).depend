@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1766105472 source:d:\system\university projects\os project\shared memory (server)\shared memory (server)\main.cpp
+	<windows.h>
+	<string>
+	<cstdio>
+
+1766113369 source:d:\system\university projects\os project\shared memory (server)\main.cpp
+	<windows.h>
+	<string>
+	<cstdio>
+

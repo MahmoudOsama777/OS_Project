@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1766152894 source:d:\system\university projects\os project\socket & multithreading (client)\main.cpp
+	<winsock2.h>
+	<windows.h>
+	<ws2tcpip.h>
+	<string>
+
